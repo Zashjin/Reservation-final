@@ -152,6 +152,7 @@ function Dashboard({
           <tbody>{tablesJSX()}</tbody>
         </table>
       </main>
+      <h2 className="font-weight-bold d-flex justify-content-center text-center text-wrap mt-3" style={{ fontSize: "20px" }}>periodic tables</h2>
     </div>
   );
 }

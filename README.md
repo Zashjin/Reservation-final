@@ -14,9 +14,9 @@ For this project, I created an application for restaurants to allows users to cr
 * HTML
 * JavaScript
 * RESTful APIs
-Run Locally
+## Run Locally
  Fork & Clone the repostory
  Run npm install
  Run npm run start:dev to start
-Images
-restaurant-app-final-home-page restaurant-app-final-new-res-page restaurant-app-final-search-page restaurant-app-final-new-table-page
+## Images
+![alt text](http://url/to/img.png)

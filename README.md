@@ -1,6 +1,6 @@
 # Capstone: Restaurant Reservation System
 ## Description
-For this project, I created an application for restaurants to allows users to create, update, view, delete reservations, as well as seat them at varius tables within the restaurant.
+I created an application so that restaurants can allow their users to create, update, view, and delete reservations. I made is possible to seat them at varius tables within the restaurant as well.
 
 ## Technologies & Tools
 * React

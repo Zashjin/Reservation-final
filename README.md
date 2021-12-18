@@ -19,4 +19,8 @@ For this project, I created an application for restaurants to allows users to cr
  Run npm install
  Run npm run start:dev to start
 ## Images
+![alt text]()
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)

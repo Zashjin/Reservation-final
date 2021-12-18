@@ -49,3 +49,4 @@ module.exports = {
   read,
   update,
   edit,
+};

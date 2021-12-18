@@ -1,23 +1,28 @@
 import React from "react";
-import Menu from "./Menu";
 import Routes from "./Routes";
-
+import Menu from "./Menu";
 
 /**
  * Defines the main layout of the application.
- *
  * You will not need to make changes to this file.
- *
  * @returns {JSX.Element}
  */
 function Layout() {
   return (
-    <div className="container-fluid">
-      <div className="row h-100">
-        <div className="col-md-2 side-bar">
+    <div
+      className="container-fluid"
+      style={{
+        fontFamily: "'Ubuntu', sans-serif",
+        backgroundColor: "#FFB93A",
+        color: "#ffffff",
+        height: "100vh"
+      }}
+    >
+      <div className="row">
+        <div className="col-1 p-0">
           <Menu />
         </div>
-        <div className="col">
+        <div className="col-10">
           <Routes />
         </div>
       </div>

@@ -50,7 +50,10 @@ export default function Search() {
   };
 
   return (
-    <div className="w-80 ml-2 pr-4 mr-4 pt-4" style={{ fontFamily: "Rubik" }}>
+    <div
+      className="w-80 ml-2 pr-4 mr-4 pt-4"
+      style={{ fontFamily: "'Ubuntu', sans-serif", height: "100vh" }}
+    >
        <h1 className="font-weight-bold d-flex justify-content-center mt-4 mb-4 pb-4">
           Search
         </h1>

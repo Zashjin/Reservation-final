@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -10,21 +9,24 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <div>
-      <nav className="nav navbar-nav mt-3 bg-white" style={{ position: "fixed", zIndex: "2" }}>
-        <ul className="nav navbar-nav">
+      <nav
+        className="nav navbar-nav mt-3 bg-white"
+        style={{ position: "fixed", zIndex: "2" }}
+      >
+        <ul className="nav navbar-nav" style={{ backgroundColor: "#FFB93A" }}>
           <li className="nav-item pl-1">
             <button
               type="button"
-              className="btn"
+              className="btn text-white"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Home"
             >
+              Home
               <Link className="nav-link " to="/">
-                <img
-                  style={{ color: "black" }}
-                  src="https://img.icons8.com/material-rounded/24/000000/home.png"
-                />
+                <span class="material-icons" style={{ color: "#ffffff" }}>
+                  home
+                </span>
               </Link>
             </button>
           </li>
@@ -32,53 +34,59 @@ function Menu() {
           <li className="nav-item pl-1">
             <button
               type="button"
-              className="btn"
+              className="btn text-white"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Search"
             >
+              Search
               <Link className="nav-link " to="/search">
-                <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png" />
+                <span class="material-icons" style={{ color: "#ffffff" }}>
+                  search
+                </span>
               </Link>
             </button>
           </li>
           <li className="nav-item pl-1">
             <button
               type="button"
-              className="btn"
+              className="btn text-white"
               data-toggle="tooltip"
               data-placement="bottom"
               title="New Reservation"
             >
+              Reserve
               <Link className="nav-link " to="/reservations/new">
-                <img
-                  className=""
-                  src="https://img.icons8.com/ios-filled/24/000000/reservation.png"
-                />
+                <span className="material-icons mr-2" style={{ color: "#ffffff" }}>
+                  local_dining
+                </span>
               </Link>
             </button>
           </li>
           <li className="nav-item pl-1">
             <button
               type="button"
-              className="btn"
+              className="btn text-white"
               data-toggle="tooltip"
               data-placement="bottom"
               title="New Table"
             >
+              Table
               <Link className="nav-link " to="/tables/new">
-                <img src="https://img.icons8.com/material-outlined/24/000000/table.png" />
+                <span class="material-icons" style={{ color: "#ffffff" }}>
+                  table_restaurant
+                </span>
               </Link>
             </button>
           </li>
         </ul>
-        <div className="text-center d-none d-md-inline">
+        {/* <div className="text-center d-none d-md-inline">
           <button
             className="btn rounded-circle border-0"
             id="sidebarToggle"
             type="button"
           />
-        </div>
+        </div> */}
       </nav>
     </div>
   );

@@ -1,6 +1,8 @@
 # Capstone: Restaurant Reservation System
 ## Description
 I created an application so that restaurants can allow their users to create, update, view, and delete reservations. I made is possible to seat them at varius tables within the restaurant as well.
+## Live Site
+[Link](https://reservation-final.herokuapp.com/)
 
 ## Technologies & Tools
 * React

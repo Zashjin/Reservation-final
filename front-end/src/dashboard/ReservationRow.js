@@ -29,19 +29,19 @@ export default function ReservationRow({ reservation, loadDashboard }) {
   return (
     <tr style={{fontFamily: "Rubik"}}>
       <th scope="row">{reservation.reservation_id}</th>
-      <td class="text-center">{reservation.first_name}</td>
-      <td class="text-center">{reservation.last_name}</td>
-      <td class="text-center">{reservation.mobile_number}</td>
-      <td class="text-center">{reservation.reservation_date.substr(0, 10)}</td>
-      <td class="text-center">{reservation.reservation_time.substr(0, 5)}</td>
-      <td class="text-center">{reservation.people}</td>
-      <td class="text-center" data-reservation-id-status={reservation.reservation_id}>
+      <td className="text-center">{reservation.first_name}</td>
+      <td className="text-center">{reservation.last_name}</td>
+      <td className="text-center">{reservation.mobile_number}</td>
+      <td className="text-center">{reservation.reservation_date.substr(0, 10)}</td>
+      <td className="text-center">{reservation.reservation_time.substr(0, 5)}</td>
+      <td className="text-center">{reservation.people}</td>
+      <td className="text-center" data-reservation-id-status={reservation.reservation_id}>
         {reservation.status}
       </td>
 
       {reservation.status === "booked" && (
         <>
-          <td class="text-center">
+          <td className="text-center">
             <Link to={`/reservations/${reservation.reservation_id}/edit`}>
               <button className="btn btn-sm btn-primary" type="button">
                 Edit
@@ -49,7 +49,7 @@ export default function ReservationRow({ reservation, loadDashboard }) {
             </Link>
           </td>
 
-          <td class="text-center">
+          <td className="text-center">
             <button
               className="btn btn-sm btn-danger"
               type="button"
@@ -60,7 +60,7 @@ export default function ReservationRow({ reservation, loadDashboard }) {
             </button>
           </td>
 
-          <td class="text-center">
+          <td className="text-center">
             <a href={`/reservations/${reservation.reservation_id}/seat`}>
               <button className="btn btn-sm btn-success" type="button">
                 Seat

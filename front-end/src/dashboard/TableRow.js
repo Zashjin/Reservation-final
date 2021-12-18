@@ -21,12 +21,12 @@ export default function TableRow({ table, loadDashboard }) {
   return (
     <tr style={{ fontFamily: "Rubik" }}>
       <th scope="row">{table.table_id}</th>
-      <td class="text-center">{table.table_name}</td>
-      <td class="text-center">{table.capacity}</td>
-      <td class="text-center" data-table-id-status={table.table_id}>
+      <td className="text-center">{table.table_name}</td>
+      <td className="text-center">{table.capacity}</td>
+      <td className="text-center" data-table-id-status={table.table_id}>
         {table.status}
       </td>
-      <td class="text-center">
+      <td className="text-center">
         {table.reservation_id ? table.reservation_id : "--"}
       </td>
 

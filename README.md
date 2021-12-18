@@ -19,7 +19,7 @@ For this project, I created an application for restaurants to allows users to cr
  Run npm install
  Run npm run start:dev to start
 ## Images
-![alt text](Reservation-final/front-end/images/us-01-submit-before.png)
+![alt text](./Reservation-final/front-end/images/us-01-submit-before.png)
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)

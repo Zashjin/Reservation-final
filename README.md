@@ -17,9 +17,14 @@ I created an application so that restaurants can allow their users to create, up
 * JavaScript
 * RESTful APIs
 ## Run Locally
- Fork & Clone the repostory
- Run npm install
- Run npm run start:dev to start
+1. Fork and clone this repository.
+2. Run cp ./back-end/.env.sample ./back-end/.env.
+3. Update the ./back-end/.env file with db connections. You can set some up for free with ElephantSQL database instances.
+4. Run cp ./front-end/.env.sample ./front-end/.env.
+5. You should not need to make changes to the ./front-end/.env file unless you want to connect to a backend at a location other than http://localhost:5000.
+6. Run npm install to install project dependencies.
+7. Run npm run start:dev from the back-end directory to start your server in development mode.
+8. Run npm start from the front-end directory to start the React app at http://localhost:3000.
 ## Images
 ### Making a Reservation
 ![us-01-submit-before](https://user-images.githubusercontent.com/81042902/146657750-1ef1d59a-16e5-4dba-9ef9-240f6d3f049d.png)

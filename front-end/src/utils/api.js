@@ -4,9 +4,9 @@
  */
 // import formatReservationDate from "./format-reservation-date";
 // import formatReservationTime from "./format-reservation-time";
-const isLive = process.env.NODE_ENV === "production"
+
 const API_BASE_URL =
-   (isLive ? process.env.REMOTE_APP_API_BASE_URL : process.env.REACT_APP_API_BASE_URL)|| "http://localhost:5000";
+   process.env.REACT_APP_API_BASE_URL || "https://brandon-finalcap-backend.herokuapp.com/";
  
 
 /**

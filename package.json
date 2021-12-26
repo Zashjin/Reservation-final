@@ -49,6 +49,7 @@
   "author": "Thinkful, Inc.",
   "license": "UNLICENSED",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "lodash": "^4.17.21",
     "logger": "0.0.1",

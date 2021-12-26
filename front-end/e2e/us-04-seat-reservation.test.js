@@ -72,7 +72,7 @@ describe("US-04 - Seat reservation - E2E", () => {
         path: ".screenshots/us-04-omit-table-name-after.png",
         fullPage: true,
       });
-console.log(page.url(),'----------------------------------------------------')
+
       expect(page.url()).toContain("/tables/new");
     });
     test("entering a single character table_name and submitting does not create a new table", async () => {

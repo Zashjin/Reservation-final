@@ -4,7 +4,6 @@ import { previous, next, today } from "../utils/date-time";
 import ErrorAlert from "../layout/ErrorAlert";
 import TableRow from "./TableRow";
 import ReservationRow from "./ReservationRow";
-
 /**
  * Defines the dashboard page.
  */

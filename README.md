@@ -2,7 +2,7 @@
 ## Description
 I created an application so that restaurants can allow their users to create, update, view, and delete reservations. I made is possible to seat them at varius tables within the restaurant as well.
 ## Live Site
-[Restaurant Reservation](https://reservation-final.herokuapp.com/)
+[Restaurant Reservation](https://final-cap-client.herokuapp.com/)
 
 ## Technologies & Tools
 * React

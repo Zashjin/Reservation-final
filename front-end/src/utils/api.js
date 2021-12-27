@@ -6,7 +6,7 @@
 // import formatReservationTime from "./format-reservation-time";
 
 const API_BASE_URL =
-   process.env.REACT_APP_API_BASE_URL || "https://brandon-finalcap-backend.herokuapp.com/";
+   process.env.REACT_APP_API_BASE_URL || "https://brandon-finalcap-backend.herokuapp.com";
  
 
 /**

@@ -15,7 +15,7 @@ function Layout() {
         fontFamily: "'Ubuntu', sans-serif",
         backgroundColor: "#FFB93A",
         color: "#ffffff",
-        height: "200vh"
+        height: "2000px"
       }}
     >
       <div className="row">
